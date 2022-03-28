@@ -1,0 +1,203 @@
+VALIDATION RESULT for model.GameEngine: PASSED
+
+VALIDATION RESULT for model.GameEngineImpl: PASSED
+
+VALIDATION RESULT for model.Player: PASSED
+
+VALIDATION RESULT for model.PlayerImpl: PASSED
+
+VALIDATION RESULT for model.bet.BetType: PASSED
+
+VALIDATION RESULT for model.bet.ColorBetImpl: PASSED
+
+VALIDATION RESULT for model.bet.NumberBetImpl: PASSED
+
+VALIDATION RESULT for model.wheel.SlotColor: PASSED
+
+VALIDATION RESULT for model.wheel.SlotImpl: PASSED
+
+VALIDATION RESULT for model.wheel.WheelImpl: PASSED
+
+VALIDATION RESULT for view.ConsoleLoggerCallback: PASSED
+
+
+OVERALL VALIDATION RESULT: PASSED
+
+Testing wheel/slots:
+Slot position=01, color=Double Zero, number=00
+Slot position=02, color=Red, number=27
+Slot position=03, color=Black, number=10
+Slot position=04, color=Red, number=25
+Slot position=05, color=Black, number=29
+Slot position=06, color=Red, number=12
+Slot position=07, color=Black, number=8
+Slot position=08, color=Red, number=19
+Slot position=09, color=Black, number=31
+Slot position=10, color=Red, number=18
+Slot position=11, color=Black, number=6
+Slot position=12, color=Red, number=21
+Slot position=13, color=Black, number=33
+Slot position=14, color=Red, number=16
+Slot position=15, color=Black, number=4
+Slot position=16, color=Red, number=23
+Slot position=17, color=Black, number=35
+Slot position=18, color=Red, number=14
+Slot position=19, color=Black, number=2
+Slot position=20, color=Green Zero, number=0
+Slot position=21, color=Black, number=28
+Slot position=22, color=Red, number=9
+Slot position=23, color=Black, number=26
+Slot position=24, color=Red, number=30
+Slot position=25, color=Black, number=11
+Slot position=26, color=Red, number=7
+Slot position=27, color=Black, number=20
+Slot position=28, color=Red, number=32
+Slot position=29, color=Black, number=17
+Slot position=30, color=Red, number=5
+Slot position=31, color=Black, number=22
+Slot position=32, color=Red, number=34
+Slot position=33, color=Black, number=15
+Slot position=34, color=Red, number=3
+Slot position=35, color=Black, number=24
+Slot position=36, color=Red, number=36
+Slot position=37, color=Black, number=13
+Slot position=38, color=Red, number=1
+
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback addPlayer
+INFO: Added Player id=P1, name=Player One, points=1000, No Bet
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback addPlayer
+INFO: Added Player id=P2, name=Player Two, points=2000, No Bet
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback addPlayer
+INFO: Added Player id=X3, name=Player Three, points=3000, No Bet
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback removePlayer
+INFO: Removed Player id=X3, name=Player Three, points=3000, No Bet
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback updateBet
+INFO: Bet updated for Player id=P1, name=Player One, points=900, Bet 100 on Red
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback updateBet
+INFO: Bet updated for Player id=P2, name=Player Two, points=1900, Bet 100 on Number 12
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback winningSlot
+INFO: Winning slot is Slot position=06, color=Red, number=12
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback winningSlot
+INFO: Final Results:
+Player: P1         Player One          WIN!     200
+Player: P2         Player Two          WIN!    3600
+
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback updateBet
+INFO: Bet updated for Player id=P1, name=Player One, points=1100, Bet 100 on Red
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback updateBet
+INFO: Bet updated for Player id=P2, name=Player Two, points=5500, Bet 100 on Number 12
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback updateBet
+INFO: Bet updated for Player id=P1, name=Player One, points=1100, No Bet
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback updateBet
+INFO: Bet updated for Player id=P2, name=Player Two, points=5500, No Bet
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback updateBet
+INFO: Bet updated for Player id=P1, name=Player One, points=1000, Bet 100 on Black
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback updateBet
+INFO: Bet updated for Player id=P2, name=Player Two, points=5400, Bet 100 on Number 22
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback initialSlot
+INFO: Initial Slot is Slot position=23, color=Black, number=26
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=24, color=Red, number=30
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=25, color=Black, number=11
+Sep 14, 2019 5:00:17 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=26, color=Red, number=7
+Sep 14, 2019 5:00:18 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=27, color=Black, number=20
+Sep 14, 2019 5:00:18 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=28, color=Red, number=32
+Sep 14, 2019 5:00:18 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=29, color=Black, number=17
+Sep 14, 2019 5:00:18 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=30, color=Red, number=5
+Sep 14, 2019 5:00:18 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=31, color=Black, number=22
+Sep 14, 2019 5:00:18 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=32, color=Red, number=34
+Sep 14, 2019 5:00:18 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=33, color=Black, number=15
+Sep 14, 2019 5:00:18 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=34, color=Red, number=3
+Sep 14, 2019 5:00:19 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=35, color=Black, number=24
+Sep 14, 2019 5:00:19 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=36, color=Red, number=36
+Sep 14, 2019 5:00:19 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=37, color=Black, number=13
+Sep 14, 2019 5:00:19 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=38, color=Red, number=1
+Sep 14, 2019 5:00:19 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=01, color=Double Zero, number=00
+Sep 14, 2019 5:00:20 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=02, color=Red, number=27
+Sep 14, 2019 5:00:20 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=03, color=Black, number=10
+Sep 14, 2019 5:00:20 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=04, color=Red, number=25
+Sep 14, 2019 5:00:20 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=05, color=Black, number=29
+Sep 14, 2019 5:00:20 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=06, color=Red, number=12
+Sep 14, 2019 5:00:21 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=07, color=Black, number=8
+Sep 14, 2019 5:00:21 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=08, color=Red, number=19
+Sep 14, 2019 5:00:21 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=09, color=Black, number=31
+Sep 14, 2019 5:00:22 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=10, color=Red, number=18
+Sep 14, 2019 5:00:22 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=11, color=Black, number=6
+Sep 14, 2019 5:00:22 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=12, color=Red, number=21
+Sep 14, 2019 5:00:23 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=13, color=Black, number=33
+Sep 14, 2019 5:00:23 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=14, color=Red, number=16
+Sep 14, 2019 5:00:23 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=15, color=Black, number=4
+Sep 14, 2019 5:00:24 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=16, color=Red, number=23
+Sep 14, 2019 5:00:24 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=17, color=Black, number=35
+Sep 14, 2019 5:00:24 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=18, color=Red, number=14
+Sep 14, 2019 5:00:25 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=19, color=Black, number=2
+Sep 14, 2019 5:00:25 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=20, color=Green Zero, number=0
+Sep 14, 2019 5:00:25 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=21, color=Black, number=28
+Sep 14, 2019 5:00:26 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=22, color=Red, number=9
+Sep 14, 2019 5:00:26 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=23, color=Black, number=26
+Sep 14, 2019 5:00:27 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=24, color=Red, number=30
+Sep 14, 2019 5:00:27 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=25, color=Black, number=11
+Sep 14, 2019 5:00:28 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=26, color=Red, number=7
+Sep 14, 2019 5:00:28 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=27, color=Black, number=20
+Sep 14, 2019 5:00:29 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=28, color=Red, number=32
+Sep 14, 2019 5:00:29 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=29, color=Black, number=17
+Sep 14, 2019 5:00:29 PM view.ConsoleLoggerCallback advanceSlot
+FINE: Advance slot to Slot position=30, color=Red, number=5
+Sep 14, 2019 5:00:29 PM view.ConsoleLoggerCallback winningSlot
+INFO: Winning slot is Slot position=30, color=Red, number=5
+Sep 14, 2019 5:00:30 PM view.ConsoleLoggerCallback winningSlot
+INFO: Final Results:
+Player: P1         Player One          LOSS    -100
+Player: P2         Player Two          LOSS    -100
+
+Sep 14, 2019 5:00:30 PM view.ConsoleLoggerCallback updateBet
+INFO: Bet updated for Player id=P1, name=Player One, points=1000, Bet 100 on Black
+Sep 14, 2019 5:00:30 PM view.ConsoleLoggerCallback updateBet
+INFO: Bet updated for Player id=P2, name=Player Two, points=5400, Bet 100 on Number 22
+Sep 14, 2019 5:00:30 PM view.ConsoleLoggerCallback updateBet
+INFO: Bet updated for Player id=P1, name=Player One, points=1000, No Bet
+Sep 14, 2019 5:00:30 PM view.ConsoleLoggerCallback updateBet
+INFO: Bet updated for Player id=P2, name=Player Two, points=5400, No Bet
